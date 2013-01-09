@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Formulario de prueba de clases MySQL</title>
+</head>
+<style type="text/css">
+html,body{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+form{
+	width: 700px;
+	margin: 0 auto;
+}
+
+label{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+label a{
+	width: 48%;
+	float: left;
+	text-decoration: none;
+}
+
+label input{
+	width: 50%;
+	float: left;
+}
+
+#enviar,#reg{
+	cursor: pointer;
+}
+
+
+</style>
+<body>
+	<form name="testing" id="testing" method="post" action="pruebainsert.php">
+		<label><h2>Formulario de Prueba</h2></label>
+		<label><a>Nombre del usuario</a> <input type="text" name="nombre" id="nombre" required="required" /></label>
+		<label><a/>Edad </a><input type="text" name="edad" id="edad" required="required" /></label>
+		<label><input type="submit" value="Insertar" name="enviar" id="enviar"><a href="pruebamodulo.php"><input type="button" value="Ver Registros" id="reg"></a> </label>
+	</form>
+
+</body>
+</html>
